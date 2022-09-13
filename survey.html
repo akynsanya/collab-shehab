@@ -8,17 +8,22 @@
     <link rel="stylesheet" href="surveyCssStyle.css">
 </head>
 <body>
-    <div>
-        <h1>freeCodeCamp Survey Form</h1>
+    <div id="header"></div>
+    
+        <h1 id="h1">freeCodeCamp Survey Form</h1>
+    
+    
+        <h3 id="h3">Thank you for taking the time to help us improve the platform</h3>
+    
     </div>
-    <div>
-        <h3>Thank you for taking the time to help us improve the platform</h3>
-    </div>
-    <div>
+    <div id="form">
         <form action="">
-            <Label>Name <br><input type="text" placeholder="Enter your Name" required></Label>
-            <Label>Email <br><input type="text" placeholder="Enter your Email" required></Label>
-            <Label>Age(Optional) <br><input type="text" placeholder="Enter your Name"></Label>
+            <Label id="label">Name </Label>
+            <input type="text" id="input" placeholder="Enter your Name" required>
+            <Label id="label">Email </Label>
+            <input type="text" id="input" placeholder="Enter your Email" required>
+            <Label id="label">Age(Optional)</Label>
+            <input type="text" id="input" placeholder="Enter your Age">
 
           <Label> option best describes your current role?</Label>
           <select>
@@ -30,7 +35,7 @@
             <option>Others</option>
           </select>
           <label for="">Would you recommend freeCodeCamp to a friend?</label>
-          <label for="""><input type="radio" name="recommend" id="">Definitely</label>
+          <label for=""><input type="radio" name="recommend" id="">Definitely</label>
           <label></label>
 
         </form>
