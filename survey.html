@@ -26,8 +26,8 @@
             <Label id="label">Age(Optional)</Label>
             <input type="text" id="input" placeholder="Enter your Age">
 
-          <Label> Option best describes your current role?</Label><br>
-          <select>
+          <Label id="label"> Option best describes your current role?</Label>
+          <select id="input">
             <option>Select role</option>
             <option>Student</option>
             <option>Full Time Job</option>
@@ -35,38 +35,39 @@
             <option>Prefer Not to Say</option>
             <option>Others</option>
           </select> <br>
-          <label for="">Would you recommend freeCodeCamp to a friend?</label><br>
-          <label for=""><input type="radio" name="recommend" id="">Definitely</label><br>
-          <label for=""><input type="radio" name="recommend" id="">Maybe</label><br>
-          <label for=""><input type="radio" name="recommend" id="">Not Sure</label><br>
-          <label for="">What is your favorite feature of freeCodeCamp?<br><Select>
+          <label for="" id="label">Would you recommend freeCodeCamp to a friend?</label>
+          <label for="" id="checkers"><input type="radio" name="recommend" id="">Definitely</label>
+          <label for="" id="checkers"><input type="radio" name="recommend" id="">Maybe</label>
+          <label for="" id="checkers"><input type="radio" name="recommend" id="">Not Sure</label><br>
+          <label for="" id="label">What is your favorite feature of freeCodeCamp?</label>
+            <Select id="input">
             <option value="">Select an option</option>
-            <opttion>Challenges</opttion>
+            <opttion>Challenges</option>
             <option>Projects</option>
             <option value="">Community</option>
             <option value="">Open Source</option>
-          </Select></label>
+          </Select>
           <div>
             <h3>What would you like to see improved? (Check all that apply)
              </h3>
-             <label for=""><input type="checkbox">Front-end Projects</label><br>
-             <label for=""><input type="checkbox">Back-end Projects</label><br>
-             <label for=""><input type="checkbox">Data Visualization</label><br>
-             <label for=""><input type="checkbox">Challenges</label><br>
-             <label for=""><input type="checkbox">Open Source Community</label><br>
-             <label for=""><input type="checkbox">Gitter help rooms</label><br>
-             <label for=""><input type="checkbox">Videos</label><br>
-             <label for=""><input type="checkbox">City Meetups</label><br>
-             <label for=""><input type="checkbox">Wiki</label><br>
-             <label for=""><input type="checkbox">Forum</label><br>
-             <label for=""><input type="checkbox">Additional Courses</label><br>
+             <label for="" id="checkers"><input type="checkbox">Front-end Projects</label><br>
+             <label for="" id="checkers"><input type="checkbox">Back-end Projects</label><br>
+             <label for="" id="checkers"><input type="checkbox">Data Visualization</label><br>
+             <label for="" id="checkers"><input type="checkbox">Challenges</label><br>
+             <label for="" id="checkers"><input type="checkbox">Open Source Community</label><br>
+             <label for="" id="checkers"><input type="checkbox">Gitter help rooms</label><br>
+             <label for="" id="checkers"><input type="checkbox">Videos</label><br>
+             <label for="" id="checkers"><input type="checkbox">City Meetups</label><br>
+             <label for="" id="checkers"><input type="checkbox">Wiki</label><br>
+             <label for="" id="checkers"><input type="checkbox">Forum</label><br>
+             <label for="" id="checkers"><input type="checkbox">Additional Courses</label><br>
 
           </div>
           <div>
-            <div>Any comments or suggestions?</div>
-            <textarea placeholder="Enter your comment here..."></textarea>
+            <h3 id="h3">Any comments or suggestions?</h3>
+            <textarea placeholder="Enter your comment here..." id="text-area"></textarea>
           </div>
-          <input type="button" value="Submit">
+          <input type="button" id="submit"value="Submit">
 
 
         </form>
