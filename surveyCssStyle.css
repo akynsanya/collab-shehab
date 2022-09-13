@@ -4,7 +4,11 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    background: rgba(27, 27, 50, 0.8);
+    background-image:url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
 }
 /*  Header */
 #header{
@@ -31,7 +35,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction:column;
-    background: yellowgreen;
+    background-color:rgba(27, 27, 50, 0.8);
+   
 }
 #label{
     display:flex;
@@ -66,17 +71,21 @@ body{
 #text-area{
     display:flex;
     flex-direction: row;
-    width:100%;
+    width:95%;
     height:100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+
     text-align:center;
+    
 }
 #submit{
     display:flex;
     flex-direction: row;
-    width:100%;
+    width:97%;
     height:100%;
-    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align:center;
     justify-content: center;
 }
